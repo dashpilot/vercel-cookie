@@ -14,5 +14,7 @@ module.exports = (req, res) => {
       });
 
     
+  }else{
+    res.send("");
   }
 }
